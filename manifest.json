@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "AC - AI Assistant",
+    "version": "1.0",
+    "description": "An AI assistant to help you with your daily interactions...",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "https://generativelanguage.googleapis.com/"
+    ]
+  }

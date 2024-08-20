@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+#chatArea {
+    flex-grow: 1;
+    overflow-y: auto;
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+}
+
+#searchForm {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
